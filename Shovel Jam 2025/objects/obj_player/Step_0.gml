@@ -24,6 +24,11 @@
 				case(obj_go):		obj_go.ComprobarCondiciones(); break;
 			}
 		}
+		else
+		{
+			if (instance_exists(obj_level_complete))
+				room_goto_next();
+		}
 	}
 #endregion
 
