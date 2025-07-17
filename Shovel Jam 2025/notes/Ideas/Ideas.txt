@@ -1,0 +1,13 @@
+- quitar el freno
+- arrancar las hélices
+- sin combustible
+- fuga en el motor
+- fuego en el motor
+- se ha caido una puerta
+- hay aceite en cubierta y resbala
+
+- al acabarse el tiempo el avión despega sí o sí
+- también despega si le damos a un botón de Go, go, go!
+- si no está en condiciones, pasa algo y game over
+- hay que moverse con <- y -> usar las herramientas
+- hay que salir de la linea de fuego antes de despegar?
