@@ -17,7 +17,7 @@ with (obj_avion)
 
 with (obj_juego)
 {
-	//draw_text(0,100,$"objetivos_por_fase[{fase_actual}]:{objetivos_por_fase[fase_actual]}")
+	draw_text(0,100,$"Fase {fase_actual}")
 }
 
 with (obj_go)

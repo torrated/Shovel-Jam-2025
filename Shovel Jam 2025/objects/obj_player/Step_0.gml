@@ -27,7 +27,10 @@
 		else
 		{
 			if (instance_exists(obj_level_complete))
+			{
+				obj_juego.IncrementaFase();
 				room_goto_next();
+			}
 		}
 	}
 #endregion

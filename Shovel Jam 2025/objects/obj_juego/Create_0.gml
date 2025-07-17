@@ -10,4 +10,12 @@ RefrescarCondiciones();
 function RefrescarCondiciones()
 {
 	objetivos_por_fase[1] = [obj_avion.arrancado];
+	objetivos_por_fase[2] = [obj_avion.arrancado];
+}
+
+
+/// @description Incrementa el número de fase actual
+function IncrementaFase()
+{
+	fase_actual += 1;
 }
