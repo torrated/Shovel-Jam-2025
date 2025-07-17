@@ -1,4 +1,6 @@
 /// @description
+var _color = draw_get_color();
+draw_set_color(c_black);
 
 with (obj_player)
 {
@@ -12,7 +14,7 @@ with (obj_barra_tiempo)
 
 with (obj_avion)
 {
-	//draw_text(0,150,$"arrancado: {arrancado}")
+	draw_text(0,150,$"puede_arrancar:{puede_arrancar}\narrancado:{arrancado}\ntiene_combustible:{tiene_combustible}");
 }
 
 with (obj_juego)
@@ -24,3 +26,5 @@ with (obj_go)
 {
 	//draw_text(0,200,$"condiciones cumplidas: {condiciones_cumplidas}")
 }
+
+draw_set_color(_color);

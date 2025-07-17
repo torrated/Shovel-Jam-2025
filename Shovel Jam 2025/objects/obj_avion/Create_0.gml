@@ -20,6 +20,7 @@ airborne = false;
 tiempo_motor_fadeout_maximo = 1 * 60; // segundos * fps
 tiempo_motor_fadeout = 0;
 
+tiene_combustible = true;
 
 /// @description Arranca o para el motor del avion
 function Arrancar()
@@ -66,4 +67,20 @@ function PonerHorizontal()
 function MoverHastaBorda()
 {
 	alarm[4] = 1;
+}
+
+
+///@description Cambia el estado del indicardor de combustible
+/// @param {bool} estado
+function TieneCombustible(estado)
+{
+	tiene_combustible = estado;
+}
+
+
+/// @description Cambia el estado de arranque dependiendo del parametro
+/// @param {bool}	estado
+function PuedeArrancar(estado)
+{
+	puede_arrancar = estado;
 }

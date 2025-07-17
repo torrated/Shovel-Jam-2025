@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_barril",
+  "%Name":"obj_combustible",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_barril",
+  "name":"obj_combustible",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barril",
-    "path":"sprites/spr_barril/spr_barril.yy",
+    "name":"spr_64",
+    "path":"sprites/spr_64/spr_64.yy",
   },
   "spriteMaskId":null,
   "visible":true,

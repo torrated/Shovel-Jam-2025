@@ -15,18 +15,20 @@
 #region ACCIONES
 	if (_accion)
 	{
-		var _objeto = instance_place(x,y,objeto_accionable);
-		if (_objeto <> noone)
+		var _dslist = ds_list_create();
+		var _objetos = instance_place_list(x,y,objeto_accionable,_dslist,false);
+		
+		if (_objetos > 0)
 		{
-			switch (_objeto.object_index)
+			for (var _i = 0; _i < _objetos; _i++)
 			{
-				case(obj_helice):	obj_avion.Arrancar(); break;
-				case(obj_go):		obj_go.ComprobarCondiciones(); break;
-				case(obj_barril):	if (obj_barril.cogido)
-										obj_barril.Dejar();
-									else
-										obj_barril.Coger();
-									break;
+				switch (_dslist[| _i].object_index)
+				{
+					case(obj_helice):	obj_avion.Arrancar(); break;
+					case(obj_go):		obj_go.ComprobarCondiciones(); break;
+					case(obj_combustible):	obj_combustible.Accionar(); break;
+					case(obj_barril):	obj_barril.Accionar(); break;
+				}
 			}
 		}
 		else
@@ -37,6 +39,7 @@
 				room_goto_next();
 			}
 		}
+		ds_list_destroy(_dslist);
 	}
 #endregion
 
