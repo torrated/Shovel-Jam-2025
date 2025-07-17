@@ -22,6 +22,11 @@
 			{
 				case(obj_helice):	obj_avion.Arrancar(); break;
 				case(obj_go):		obj_go.ComprobarCondiciones(); break;
+				case(obj_barril):	if (obj_barril.cogido)
+										obj_barril.Dejar();
+									else
+										obj_barril.Coger();
+									break;
 			}
 		}
 		else

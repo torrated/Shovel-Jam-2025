@@ -14,7 +14,8 @@ velocidad = VELOCIDAD_PLAYER.NORMAL;
 
 accion = false;
 objeto_accionable = [	obj_helice,
-						obj_go];
+						obj_go,
+						obj_barril];
 
 
 /// @description cambia la velocidad de desplazamiento
