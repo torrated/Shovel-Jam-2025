@@ -10,8 +10,8 @@
   "name":"obj_barril",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"instancias",
+    "path":"folders/Objects/instancias.yy",
   },
   "parentObjectId":null,
   "persistent":false,

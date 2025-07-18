@@ -10,8 +10,8 @@
   "name":"obj_go",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"interactuables",
+    "path":"folders/Objects/interactuables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

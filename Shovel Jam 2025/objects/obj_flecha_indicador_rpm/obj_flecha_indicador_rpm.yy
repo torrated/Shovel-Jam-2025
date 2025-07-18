@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_barra_tiempo",
+  "%Name":"obj_flecha_indicador_rpm",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_barra_tiempo",
+  "name":"obj_flecha_indicador_rpm",
   "overriddenProperties":[],
   "parent":{
-    "name":"instancias",
-    "path":"folders/Objects/instancias.yy",
+    "name":"cockpit",
+    "path":"folders/Objects/cockpit.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barra_tiempo",
-    "path":"sprites/spr_barra_tiempo/spr_barra_tiempo.yy",
+    "name":"spr_flecha_indicador_combustible",
+    "path":"sprites/spr_flecha_indicador_combustible/spr_flecha_indicador_combustible.yy",
   },
   "spriteMaskId":null,
   "visible":true,

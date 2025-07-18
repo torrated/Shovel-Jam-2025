@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_indicador_combustible",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_indicador_combustible",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"cockpit",
+    "path":"folders/Objects/cockpit.yy",
   },
   "parentObjectId":null,
   "persistent":false,

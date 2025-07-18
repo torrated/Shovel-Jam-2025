@@ -14,7 +14,7 @@ with (obj_barra_tiempo)
 
 with (obj_avion)
 {
-	draw_text(0,150,$"puede_arrancar:{puede_arrancar}\narrancado:{arrancado}\ntiene_combustible:{tiene_combustible}\n% combustible:{porcentaje_combustible}");
+	//draw_text(0,150,$"puede_arrancar:{puede_arrancar}\narrancado:{arrancado}\ntiene_combustible:{tiene_combustible}\n% combustible:{porcentaje_combustible}\nrpm:{rpm}");
 }
 
 with (obj_juego)

@@ -3,6 +3,8 @@
 var _borda = instance_place(x,y,obj_borda);
 velocidad_horizontal *= 1.025;
 
+if (rpm < rpm_maximo)
+	IncrementaRPM(1);
 
 if (_borda == noone && !airborne)
 	x = x - velocidad_horizontal;

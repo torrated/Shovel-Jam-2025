@@ -9,8 +9,8 @@
   "name":"obj_flecha_indicador_combustible",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"cockpit",
+    "path":"folders/Objects/cockpit.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_flecha_indicador_combustible_1",
-    "path":"sprites/spr_flecha_indicador_combustible_1/spr_flecha_indicador_combustible_1.yy",
+    "name":"spr_flecha_indicador_combustible",
+    "path":"sprites/spr_flecha_indicador_combustible/spr_flecha_indicador_combustible.yy",
   },
   "spriteMaskId":null,
   "visible":true,

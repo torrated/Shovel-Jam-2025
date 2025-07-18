@@ -4,6 +4,7 @@ image_speed = 0;
 
 puede_arrancar = true;
 arrancado = false;
+despegando = false;
 
 tiempo_arranque_maximo = 3 * 60; //segundos * fps;
 tiempo_arranque = 0;
@@ -22,6 +23,10 @@ tiempo_motor_fadeout = 0;
 
 tiene_combustible = true;
 porcentaje_combustible = 100;
+
+rpm_maximo = 100; // velocidad del motor
+rpm_ralenti = 50;
+rpm = 0;
 
 /// @description Arranca o para el motor del avion
 function Arrancar()
@@ -47,6 +52,7 @@ function Despegar(modo = 0)
 	obj_barra_tiempo.Parar();
 	instance_destroy(obj_helice,false);
 	instance_destroy(obj_go);
+	despegando = true;
 	
 	switch(modo)
 	{
@@ -88,6 +94,8 @@ function TieneCombustible(estado)
 function PuedeArrancar(estado)
 {
 	puede_arrancar = estado;
+	if !(estado)
+		rpm = 0;
 }
 
 
@@ -96,4 +104,13 @@ function PuedeArrancar(estado)
 function IncrementaCombustible(numero)
 {
 	porcentaje_combustible += numero;
+}
+
+
+
+/// @description Incrementa los rpm
+/// @param {real} numero
+function IncrementaRPM(numero)
+{
+	rpm += numero;
 }
