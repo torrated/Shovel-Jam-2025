@@ -12,6 +12,9 @@ function RefrescarCondiciones()
 	objetivos_por_fase[1] = [obj_avion.arrancado];
 	objetivos_por_fase[2] = [obj_avion.arrancado,
 							 obj_avion.tiene_combustible];
+	objetivos_por_fase[3] = [obj_avion.arrancado,
+							 obj_avion.tiene_combustible,
+							 obj_avion.alarma_apagada]
 }
 
 

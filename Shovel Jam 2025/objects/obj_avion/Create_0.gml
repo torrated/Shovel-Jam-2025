@@ -28,6 +28,8 @@ rpm_maximo = 100; // velocidad del motor
 rpm_ralenti = 50;
 rpm = 0;
 
+alarma_apagada = true;
+
 /// @description Arranca o para el motor del avion
 function Arrancar()
 {
@@ -51,7 +53,9 @@ function Despegar(modo = 0)
 {
 	obj_barra_tiempo.Parar();
 	instance_destroy(obj_helice,false);
-	instance_destroy(obj_go);
+	instance_destroy(obj_go,false);
+	instance_destroy(obj_combustible,true);
+	instance_destroy(obj_puerta_accion,true);
 	despegando = true;
 	
 	switch(modo)
@@ -113,4 +117,13 @@ function IncrementaCombustible(numero)
 function IncrementaRPM(numero)
 {
 	rpm += numero;
+}
+
+
+
+/// @description Cambia el estado de la alarma
+/// @param {bool} estado
+function CambiarAlarmaApagada(estado)
+{
+	alarma_apagada = estado;
 }

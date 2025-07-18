@@ -7,8 +7,11 @@
 
 
 #region MOVIMIENTO PERSONAJE
-	x = min(x + (_hor * velocidad),room_width); // para que no se salga de la pantalla por la derecha
-	x = max(x, obj_borda.x); // para que no caiga por la borda
+	if (puede_moverse)
+	{
+		x = min(x + (_hor * velocidad),room_width); // para que no se salga de la pantalla por la derecha
+		x = max(x, obj_borda.x); // para que no caiga por la borda
+	}
 #endregion
 
 
@@ -24,10 +27,11 @@
 			{
 				switch (_dslist[| _i].object_index)
 				{
-					case(obj_helice):	obj_avion.Arrancar(); break;
-					case(obj_go):		obj_go.ComprobarCondiciones(); break;
-					case(obj_combustible):	obj_combustible.Accionar(); break;
-					case(obj_barril):	obj_barril.Accionar(); break;
+					case(obj_helice):		 obj_avion.Arrancar(); break;
+					case(obj_go):			 obj_go.ComprobarCondiciones(); break;
+					case(obj_combustible): 	obj_combustible.Accionar(); break;
+					case(obj_barril):		 obj_barril.Accionar(); break;
+					case(obj_puerta_accion): obj_puerta.Cerrar(); obj_avion.CambiarAlarmaApagada(true); break;
 				}
 			}
 		}
@@ -45,11 +49,14 @@
 
 
 #region CAMBIO DE SPRITE
-	if (_hor == 0)
-		image_speed = 0;
-	else
+	if (puede_moverse)
 	{
-		image_speed = 1;
-		image_xscale = _hor;
+		if (_hor == 0)
+			image_speed = 0;
+		else
+		{
+			image_speed = 1;
+			image_xscale = _hor;
+		}
 	}
 #endregion

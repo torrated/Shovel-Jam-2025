@@ -17,7 +17,8 @@ accion = false;
 objeto_accionable = [	obj_helice,
 						obj_go,
 						obj_barril,
-						obj_combustible];
+						obj_combustible,
+						obj_puerta_accion];
 
 
 /// @description cambia la velocidad de desplazamiento
