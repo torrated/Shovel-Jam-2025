@@ -4,6 +4,8 @@ fase_actual = 1;
 objetivos_por_fase = [];
 RefrescarCondiciones();
 
+version = "v0.1";
+
 
 
 /// @description Refresca los valores de las condiciones de victoria
