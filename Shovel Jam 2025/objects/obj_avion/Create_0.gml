@@ -21,6 +21,7 @@ tiempo_motor_fadeout_maximo = 1 * 60; // segundos * fps
 tiempo_motor_fadeout = 0;
 
 tiene_combustible = true;
+porcentaje_combustible = 100;
 
 /// @description Arranca o para el motor del avion
 function Arrancar()
@@ -75,6 +76,10 @@ function MoverHastaBorda()
 function TieneCombustible(estado)
 {
 	tiene_combustible = estado;
+	if (estado)
+		porcentaje_combustible = 100;
+	else
+		porcentaje_combustible = 0;
 }
 
 
@@ -83,4 +88,12 @@ function TieneCombustible(estado)
 function PuedeArrancar(estado)
 {
 	puede_arrancar = estado;
+}
+
+
+/// @description Incrementa el porcentaje de combustible del avion
+/// @param {real} numero
+function IncrementaCombustible(numero)
+{
+	porcentaje_combustible += numero;
 }
