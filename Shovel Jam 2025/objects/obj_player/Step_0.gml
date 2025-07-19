@@ -37,7 +37,7 @@
 		}
 		else
 		{
-			if (instance_exists(obj_level_complete))
+			if (instance_exists(obj_level_complete) && room <> room_last)
 			{
 				obj_juego.IncrementaFase();
 				room_goto_next();

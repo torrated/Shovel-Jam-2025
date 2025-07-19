@@ -54,7 +54,7 @@ function Despegar(modo = 0)
 	obj_barra_tiempo.Parar();
 	instance_destroy(obj_helice,false);
 	instance_destroy(obj_go,false);
-	instance_destroy(obj_combustible,true);
+	//instance_destroy(obj_combustible,true);
 	instance_destroy(obj_puerta_accion,true);
 	despegando = true;
 	
