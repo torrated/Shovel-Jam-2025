@@ -20,6 +20,8 @@ objeto_accionable = [	obj_helice,
 						obj_combustible,
 						obj_puerta_accion];
 
+sombra = instance_create_layer(x,y,layer,obj_sombra);
+sombra.seguir = self;
 
 /// @description cambia la velocidad de desplazamiento
 /// @param {VELOCIDAD_PLAYER}  vel VELOCIDAD_PLAYER
