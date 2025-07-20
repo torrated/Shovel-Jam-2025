@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_complete",
+  "%Name":"obj_pressspace",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_level_complete",
+  "name":"obj_pressspace",
   "overriddenProperties":[],
   "parent":{
-    "name":"textos",
-    "path":"folders/Objects/textos.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_levelcomplete",
-    "path":"sprites/spr_levelcomplete/spr_levelcomplete.yy",
+    "name":"spr_pressspace",
+    "path":"sprites/spr_pressspace/spr_pressspace.yy",
   },
   "spriteMaskId":null,
   "visible":true,

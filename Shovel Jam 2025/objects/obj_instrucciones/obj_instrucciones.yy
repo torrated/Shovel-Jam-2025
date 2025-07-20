@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_complete",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_instrucciones",
+  "eventList":[],
   "managed":true,
-  "name":"obj_level_complete",
+  "name":"obj_instrucciones",
   "overriddenProperties":[],
   "parent":{
-    "name":"textos",
-    "path":"folders/Objects/textos.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_levelcomplete",
-    "path":"sprites/spr_levelcomplete/spr_levelcomplete.yy",
+    "name":"spr_instrucciones",
+    "path":"sprites/spr_instrucciones/spr_instrucciones.yy",
   },
   "spriteMaskId":null,
   "visible":true,

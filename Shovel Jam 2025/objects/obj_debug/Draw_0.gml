@@ -27,4 +27,9 @@ with (obj_go)
 	//draw_text(0,200,$"condiciones cumplidas: {condiciones_cumplidas}")
 }
 
+with (obj_logo)
+{
+	//draw_text(0,10,$"alpha {image_alpha}")
+}
 draw_set_color(_color);
+

@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_complete",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_logo",
+  "eventList":[],
   "managed":true,
-  "name":"obj_level_complete",
+  "name":"obj_logo",
   "overriddenProperties":[],
   "parent":{
-    "name":"textos",
-    "path":"folders/Objects/textos.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_levelcomplete",
-    "path":"sprites/spr_levelcomplete/spr_levelcomplete.yy",
+    "name":"spr_logo",
+    "path":"sprites/spr_logo/spr_logo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
