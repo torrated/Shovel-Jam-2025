@@ -14,12 +14,12 @@ with (obj_barra_tiempo)
 
 with (obj_avion)
 {
-	draw_text(0,150,$"arrancado:{arrancado}\ntiene_combustible:{tiene_combustible}\nalarma_apagada:{alarma_apagada}");
+	//draw_text(0,150,$"arrancado:{arrancado}\ntiene_combustible:{tiene_combustible}\nalarma_apagada:{alarma_apagada}");
 }
 
 with (obj_juego)
 {
-	draw_text(0,100,$"Fase {fase_actual}")
+	draw_text(0,10,$"Level {fase_actual}")
 }
 
 with (obj_go)
