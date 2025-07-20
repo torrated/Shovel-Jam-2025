@@ -42,6 +42,10 @@
 				obj_juego.IncrementaFase();
 				room_goto_next();
 			}
+			if (instance_exists(obj_youfailed))
+			{
+				game_restart();
+			}
 		}
 		ds_list_destroy(_dslist);
 	}
