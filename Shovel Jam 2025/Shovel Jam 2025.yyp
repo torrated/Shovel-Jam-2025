@@ -89,6 +89,7 @@
     {"id":{"name":"spr_flecha_indicador_combustible","path":"sprites/spr_flecha_indicador_combustible/spr_flecha_indicador_combustible.yy",},},
     {"id":{"name":"spr_getitstarted","path":"sprites/spr_getitstarted/spr_getitstarted.yy",},},
     {"id":{"name":"spr_indicador_combustible","path":"sprites/spr_indicador_combustible/spr_indicador_combustible.yy",},},
+    {"id":{"name":"spr_levelcomplete","path":"sprites/spr_levelcomplete/spr_levelcomplete.yy",},},
     {"id":{"name":"spr_nube","path":"sprites/spr_nube/spr_nube.yy",},},
     {"id":{"name":"spr_nubes","path":"sprites/spr_nubes/spr_nubes.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
