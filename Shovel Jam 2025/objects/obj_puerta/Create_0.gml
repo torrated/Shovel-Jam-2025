@@ -9,4 +9,5 @@ follow = obj_avion;
 function Cerrar()
 {
 	image_index = 1;
+	audio_play_sound(snd_plof,1,false);
 }
