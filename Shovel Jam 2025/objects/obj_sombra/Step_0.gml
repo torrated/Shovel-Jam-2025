@@ -1,9 +1,13 @@
 /// @description sigue al objeto
 
+
 if (instance_exists(seguir))
 {
-	image_xscale = seguir.sprite_width/2;
-	x = seguir.x - (image_xscale/2);
+	size = seguir.bbox_right-seguir.bbox_left;
+	image_xscale = size//*2/3;
+	
+	x = seguir.bbox_left;
+
 	y = seguir.y;
 }
 else

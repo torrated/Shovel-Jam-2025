@@ -30,6 +30,9 @@ rpm = 0;
 
 alarma_apagada = true;
 
+//sombra = instance_create_layer(x,y,layer,obj_sombra);
+//sombra.seguir = self;
+
 /// @description Arranca o para el motor del avion
 function Arrancar()
 {

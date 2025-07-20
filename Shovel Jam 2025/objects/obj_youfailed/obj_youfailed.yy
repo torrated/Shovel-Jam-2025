@@ -8,8 +8,8 @@
   "name":"obj_youfailed",
   "overriddenProperties":[],
   "parent":{
-    "name":"instancias",
-    "path":"folders/Objects/instancias.yy",
+    "name":"textos",
+    "path":"folders/Objects/textos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

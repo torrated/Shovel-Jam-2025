@@ -1,4 +1,4 @@
-/// @description 
+/// @description Sigue al player cuando lo ha cogido
 
 if (follow <> noone)
 {
