@@ -76,6 +76,7 @@
     {"id":{"name":"snd_gluglu","path":"sounds/snd_gluglu/snd_gluglu.yy",},},
     {"id":{"name":"snd_motor","path":"sounds/snd_motor/snd_motor.yy",},},
     {"id":{"name":"snd_plof","path":"sounds/snd_plof/snd_plof.yy",},},
+    {"id":{"name":"snd_theme","path":"sounds/snd_theme/snd_theme.yy",},},
     {"id":{"name":"spr_128","path":"sprites/spr_128/spr_128.yy",},},
     {"id":{"name":"spr_32","path":"sprites/spr_32/spr_32.yy",},},
     {"id":{"name":"spr_64","path":"sprites/spr_64/spr_64.yy",},},

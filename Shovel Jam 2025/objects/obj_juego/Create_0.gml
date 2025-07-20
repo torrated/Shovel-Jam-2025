@@ -6,6 +6,9 @@ RefrescarCondiciones();
 
 version = "v0.1";
 
+audio_group_load(audiogroup_default);
+audio_group_set_gain(audiogroup_default,0.06,1);
+musica = audio_play_sound(snd_theme,1,true);
 
 
 /// @description Refresca los valores de las condiciones de victoria
