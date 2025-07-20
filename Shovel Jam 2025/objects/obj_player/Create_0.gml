@@ -44,3 +44,17 @@ function Reanimar()
 {
 	puede_moverse = true;
 }
+
+
+/// @description Pone el sprite normal al player
+function Poner_Sprite_Normal()
+{
+	sprite_index = spr_player;
+}
+
+
+/// @description Pone el sprite normal al player
+function Poner_Sprite_Cogiendo()
+{
+	sprite_index = spr_player_cogiendo;
+}

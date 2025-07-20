@@ -29,10 +29,11 @@ function Accionar()
 function Coger()
 {
 	y -= altura_barril;
-	image_angle = 10;
+	//image_angle = 10;
 	obj_player.CambiarVelocidad(VELOCIDAD_PLAYER.LENTA);
 	follow = obj_player;
 	cogido = true;
+	obj_player.Poner_Sprite_Cogiendo();
 }
 
 
@@ -45,6 +46,7 @@ function Dejar()
 	obj_player.CambiarVelocidad(VELOCIDAD_PLAYER.NORMAL);
 	follow = noone;
 	cogido = false;
+	obj_player.Poner_Sprite_Normal();
 }
 
 
