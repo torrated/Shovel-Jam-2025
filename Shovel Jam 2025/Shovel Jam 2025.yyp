@@ -80,6 +80,7 @@
     {"id":{"name":"spr_64","path":"sprites/spr_64/spr_64.yy",},},
     {"id":{"name":"spr_agua","path":"sprites/spr_agua/spr_agua.yy",},},
     {"id":{"name":"spr_alarma","path":"sprites/spr_alarma/spr_alarma.yy",},},
+    {"id":{"name":"spr_avion_1","path":"sprites/spr_avion_1/spr_avion_1.yy",},},
     {"id":{"name":"spr_avion","path":"sprites/spr_avion/spr_avion.yy",},},
     {"id":{"name":"spr_barco","path":"sprites/spr_barco/spr_barco.yy",},},
     {"id":{"name":"spr_barra_tiempo","path":"sprites/spr_barra_tiempo/spr_barra_tiempo.yy",},},
