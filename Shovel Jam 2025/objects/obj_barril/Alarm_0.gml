@@ -10,7 +10,8 @@ if (tiempo_verter < tiempo_verter_maximo)
 }
 else
 {
-	Tirar();
+	//Tirar();
+	Dejar();
 	obj_player.Reanimar();
 	obj_avion.TieneCombustible(true);
 	obj_avion.PuedeArrancar(true);
