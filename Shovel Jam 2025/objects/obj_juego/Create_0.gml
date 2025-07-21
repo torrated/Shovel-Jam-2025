@@ -4,7 +4,7 @@ fase_actual = 1;
 objetivos_por_fase = [];
 RefrescarCondiciones();
 
-version = "v0.1";
+version = "v0.2";
 
 audio_group_load(audiogroup_default);
 audio_group_set_gain(audiogroup_default,0.06,1);
