@@ -14,3 +14,10 @@ function Parar()
 {
 	alarm[0] = -1;
 }
+
+
+/// @description Cuando se acaba el tiempo muestra un mensaje
+function Mostrar_you_failed()
+{
+	instance_create_layer(0,0,"textos",obj_youfailed);
+}
